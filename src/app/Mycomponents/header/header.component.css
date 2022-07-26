@@ -1,0 +1,12 @@
+h1{
+    color: #00AEEF;
+}
+.btn-outline-success{
+    color: #00AEEF;
+    border-color: #00AEEF;
+}
+
+button:hover{
+    background-color: #00AEEf;
+    color: white;
+}

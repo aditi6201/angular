@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Font Awesome 5 Icons</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<!--Get your own code at fontawesome.com-->
+</head>
+<body>
+
+<div style="display: inline-block">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/" style="margin-right: 250px;">
+            <!-- <h1 style="margin-right: 450px;">AM</h1> -->
+            <img src="../../../assets/logo.png" alt="" width="50" height="50" style="margin-right: 10px;">
+            <h1 style="display:inline">Dashboard</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="display:inline-block">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a style="cursor: pointer" class="nav-link lbc" (click)="onHomeCllick()" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a style="cursor: pointer" class="nav-link" (click)="onAboutCllick()">About</a>
+                </li>
+                <li class="nav-item">
+                    <a style="cursor: pointer" class="nav-link" (click)="onContactCllick()">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <img src="../../../assets/not.png" alt="" width="25" height="25" style="margin-top: 7px;margin-left: 15px;">
+                </li>
+                <li class="nav-item">
+                <img src="../../../assets/user.png" alt="" width="25" height="25" style="margin-top: 7px;margin-left: 15px;">
+                </li>
+            </ul>
+            
+            <!-- <form class="form-inline my-2 my-lg-0">
+
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <div style="margin-right:-300px;margin-top:-36px">
+                    <button class="btn btn-outline-success my-2 my-sm-0 bc" type="submit">Search</button>
+                </div>
+            </form> -->
+        </div>
+    </nav>
+</div>
+<router-outlet></router-outlet>
