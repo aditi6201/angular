@@ -1,0 +1,35 @@
+.image::before{
+    content:"";
+        background: url(../../../assets/bg.png) no-repeat center center/cover;
+        height:100%;
+        width: 104%;
+        position: absolute;
+        top: 0;
+        left: -28px;
+        z-index: -1;
+}
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 210px;
+}
+.vl {
+    position: absolute;
+    border-left: 6px solid green;
+    height: 125px;
+    margin-left: 130px;
+    margin-top: 210px;
+  }
+.mybtn1{
+    position: absolute;
+    margin-left: -603px;
+    margin-top: 280px;
+}
+
+.mybtn2{
+   position: absolute;
+   margin-left: -483px;
+    margin-top: 280px;
+}
